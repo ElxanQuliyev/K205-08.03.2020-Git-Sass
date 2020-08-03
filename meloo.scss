@@ -1,0 +1,266 @@
+#header{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    color: #fff;
+    z-index: 10;
+    .menu{
+        margin-right: 20px;
+        li{
+            padding: 10px;
+            a{
+                text-decoration: none;
+                font-weight: 700;
+                font-size: 1.1em;
+                color: #fff;
+            }
+        }
+    }
+    .social-ico{
+        i{
+            margin-right: 5px;
+        }
+    }
+}
+
+#NewAlbum{
+    background: url(photo/andre-hunter-359191-unsplash.jpg) center /cover;
+    height: 100vh;
+    position: relative;
+    padding-top: 6em;
+    &::after{
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.7);
+    }
+}
+
+.album-sliders{
+    border: 20px solid #333;
+    background: url(photo/frankie-cordoba-388451-unsplash.jpg) center /cover;
+    height: 85vh;
+}
+
+#reviews{
+    background-color: black;
+    height: 650px;
+    .review-item{
+        position: relative;
+        &::after{
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.5);
+        }
+        .review-text{
+            position: absolute;
+            left: 15px;
+            bottom: 25px;
+            z-index: 10;
+            color: #fff;
+        }
+    }
+}
+
+#interviews{
+    background: url(photo/chad-madden-291669-unsplash.jpg) center /cover; 
+    height: 100vh;
+    .interview-item{
+        position: relative;
+        &::after{
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.5);
+        }
+        .interview-text{
+            position: absolute;
+            left: 15px;
+            bottom: 25px;
+            z-index: 10;
+            color: #fff;
+        }
+    }
+}
+
+#INTERVIEWS{
+    background: black;
+    h1{
+        color: #fff;
+        padding-left: 170px;
+        padding-bottom: 30px ;
+    }
+}
+
+
+
+#interviews .col-lg-6:hover img{
+    transform: scale(1.1);
+    transition: .4s;
+}
+
+#interviews .col-lg-4:hover img{
+    transform: scale(1.1);
+    transition: .4s;
+    
+}
+
+#interviews .col-lg-6{
+    overflow: hidden;
+    position: relative;
+}
+
+#interviews .col-lg-4{
+    overflow: hidden;
+    position: relative;
+}
+
+#instagram{
+    background-color: black;
+    
+    .instagram-item{
+        position: relative;
+        &::after{
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.5);
+        }
+        .instagram-text{
+            position: absolute;
+            left: 15px;
+            bottom: 25px;
+            z-index: 10;
+            color: #fff;
+        }
+    }
+}
+
+.posts{
+    background-color: #1a1a1a;
+    color: #fff;
+    top: 50px;
+    height: 200px;  
+    a{
+        text-decoration: none;
+        font-size: 1.1em;
+        color: #fff;  
+    }
+}
+
+.feed{
+    color: #fff;
+    background-color: #1a1a1a;
+    height: 60px;
+}
+
+.comments{
+    color: #fff;
+    background-color: #1a1a1a;
+    height: 300px;
+    a{
+        text-decoration: none;
+        font-size: 1.1em;
+        color: #fff;  
+    }
+}
+
+#duis{
+    background-color: black;
+    span{
+        color: #fff;
+        font-size: 1.1em;
+    }
+    button{
+    padding: 8px 20px;
+    background: none;
+    color: #fff;
+    border: solid;
+    font-weight: 700;
+    font-size: 16px;
+    }
+}
+
+#cathegories{
+    background-color: black;
+    
+    .cathegories-item{
+        position: relative;
+        &::after{
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.5);
+        }
+        .cathegories-text{
+            position: absolute;
+            left: 15px;
+            bottom: 25px;
+            z-index: 10;
+            color: #fff;
+        }
+    }
+}
+
+#cathegories .col-lg-4{
+    padding-top: 50px;
+}
+
+#cathegories .col-lg-8{
+    padding-top: 50px;
+}
+
+#duis{
+    background-color: black;
+    span{
+        color: #fff;
+        font-size: 1.1em;
+    }
+    button{
+    padding: 8px 20px;
+    background: none;
+    color: #fff;
+    border: solid;
+    font-weight: 700;
+    font-size: 16px;
+    }
+}
+
+#connect{
+    background-color: black;
+    height: 600px;
+    padding-top: 300px;
+}
+#connect .social-ico i{
+    margin-right: 20px;
+    color: #fff;
+}
+
+.text{
+    padding-top: 50px;
+    color: #fff;
+}
+
+@media (max-width: 768px){
+    #header{
+        .mainMenu{
+            display: none;
+        }
+    }
+}
